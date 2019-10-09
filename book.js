@@ -7,7 +7,7 @@ const BookSchema={
     image:{type:String,require:true},
     copies:{type:String,require:true},
     mrp:{type:Number,require:true},
-    mrp:{type:Number,require:true},
+    pages:{type:Number,require:true},
 
 }
 module.exports=mongoose.model('Book',BookSchema);
